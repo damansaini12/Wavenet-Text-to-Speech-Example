@@ -18,7 +18,8 @@ From the command line navigate into the Wavenet-Text-to-Speech-Example and run t
 ### Execute Script
 Swap out the location of your service account json key file.
 `GOOGLE_APPLICATION_CREDENTIALS="/Users/refactored/Desktop/wavenet-service-account.json" npm start`
-
+GOOGLE_APPLICATION_CREDENTIALS="wavenet-service-account.json" node main.js
+set GOOGLE_APPLICATION_CREDENTIALS="C:\Users\dsain\Downloads\Wavenet-Text-to-Speech-Example-master\wavenet-service-account.json"
 The above command allows us to bypass having to download the gcloud SDK utility by directly passing our service account credentials.
 
 
